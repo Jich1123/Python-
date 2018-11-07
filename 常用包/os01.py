@@ -1,0 +1,25 @@
+import os
+import os.path as pd
+mydir = os.getcwd()
+print(mydir)
+os.chdir("F:\python学习\Python-")
+mydir = os.getcwd()
+print(mydir)
+ld = os.listdir()
+print(ld)
+print(os.getenv("JAVA_HOME"))
+print(os.curdir)
+print(os.pardir)
+print(os.sep)
+print(os.linesep)
+print(os.name)
+absp = pd.abspath("..")
+print(absp)
+bd = "F:\\"
+fn = "jich.text"
+p = pd.join(bd,fn)
+print(p)
+t = pd.split(p)
+print(t)
+a,b = pd.split(p)
+print(a,b)
