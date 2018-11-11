@@ -1,0 +1,16 @@
+2018-11-11 18:16:49,269 - DEBUG - debug message
+2018-11-11 18:16:49,269 - INFO - info message
+2018-11-11 18:16:49,269 - WARNING - warning message
+2018-11-11 18:16:49,270 - ERROR - error message
+2018-11-11 18:16:49,270 - CRITICAL - critical message
+2018-11-11 18:17:54,854 - DEBUG - debug message
+2018-11-11 18:17:54,854 - INFO - info message
+2018-11-11 18:17:54,854 - WARNING - warning message
+2018-11-11 18:17:54,854 - ERROR - error message
+2018-11-11 18:17:54,855 - CRITICAL - critical message
+2018-11-11 18:19:16,019 - DEBUG - debug message
+2018-11-11 18:19:16,020 - INFO - info message
+2018-11-11 18:19:16,020 - WARNING - warning message
+2018-11-11 18:19:16,020 - ERROR - error message
+2018-11-11 18:19:16,020 - CRITICAL - critical message
+2018-11-11 18:19:57,354 - ERROR - division by zero
