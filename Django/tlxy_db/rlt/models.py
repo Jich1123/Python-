@@ -15,3 +15,14 @@ class Manager(models.Model):
     my_school = models.OneToOneField(School)
     def __str__(self):
         return self.manager_name
+
+class Teacher(models.Model):
+    teacher_name = models.CharField(max_length=20)
+    my_school = models.ForeignKey("School")
+
+class Student(models.Model):
+    student_name = models.CharField(max_length=20)
+    teachers = models.ManyToManyField("Teacher")
+
+    def __str__(self):
+        return self.student_name
