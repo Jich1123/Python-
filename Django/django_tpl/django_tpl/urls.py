@@ -8,4 +8,12 @@ urlpatterns = [
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^one/', v.one),
+    url(r'^two/', v.two),
+    url(r'^three/', v.three),
+    url(r'^four/', v.four),
+    url(r'^five_get/', v.five_get),
+    url(r'^five_post/', v.five_post),
+
+
+
 ]
