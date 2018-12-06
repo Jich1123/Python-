@@ -20,9 +20,13 @@ from MySer import views
 from rest_framework import routers
 
 router = routers.SimpleRouter()
-router.register(r'student', views.StudentVS, base_name='stu')
+# router.register(r'student', views.StudentVS, base_name='stu')
+#router.register(r'^', views.StudentViewSet, base_name='stu')
+router.register(r'', views.StudentViewSet, base_name='stu')
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    # url(r'^api/', views.StudentAPIView.as_view()),
+    # url(r'^gen_api/', views.StudentGenAPIView.as_view()),
     url(r'^api/', include(router.urls)),
 ]
