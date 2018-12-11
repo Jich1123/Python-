@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<form action="{% url 'ai:tts_action' %}" method="post">
+    {% csrf_token %}
+        <label>文字内容<br/>
+            <textarea name="words" cols="50" rows="10" >在这里输入内容...</textarea>
+        </label>
+        <br/>
+        <input type="submit" value="转换">
+</form>
+</body>
+</html>
