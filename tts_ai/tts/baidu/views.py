@@ -32,7 +32,7 @@ def play_bak(request):
     # f.close()
     # fname =file_iterator(r"F:\python学习\Python-\tts_ai\tts\baidu\wavs\result.wav")
     # f = open(fname, 'rb')
-    # return StreamingHttpResponse(fname)
+    # return StreamingHttpResponse(fname)123
     fname = r"F:\python学习\Python-\tts_ai\tts\baidu\wavs\result.wav"
     size = os.path.getsize(fname)
     content_type = 'application/octet-stream'
