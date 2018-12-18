@@ -1,0 +1,18 @@
+[INFO  - 2018-12-18T13:14:28.935Z] GhostDriver - Main - running on port 65312
+[INFO  - 2018-12-18T13:14:29.211Z] Session [d9c75410-02c6-11e9-a7ad-e544bb61ca99] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-12-18T13:14:29.211Z] Session [d9c75410-02c6-11e9-a7ad-e544bb61ca99] - page.customHeaders:  - {}
+[INFO  - 2018-12-18T13:14:29.211Z] Session [d9c75410-02c6-11e9-a7ad-e544bb61ca99] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-12-18T13:14:29.211Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d9c75410-02c6-11e9-a7ad-e544bb61ca99
+[ERROR - 2018-12-18T13:15:12.636Z] Session [d9c75410-02c6-11e9-a7ad-e544bb61ca99] - page.onError - msg: TypeError: undefined is not an object (evaluating 'bbt8l.addCallback')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2018-12-18T13:15:12.636Z] Session [d9c75410-02c6-11e9-a7ad-e544bb61ca99] - page.onError - stack:
+  (anonymous function) (https://s3.music.126.net/web/s/core_db15e45072c12697d6fed065e7a71f62.js?db15e45072c12697d6fed065e7a71f62:135)
+  forEach (:0)
+  be0x (https://s3.music.126.net/web/s/core_db15e45072c12697d6fed065e7a71f62.js?db15e45072c12697d6fed065e7a71f62:17)
+  (anonymous function) (https://s3.music.126.net/web/s/core_db15e45072c12697d6fed065e7a71f62.js?db15e45072c12697d6fed065e7a71f62:135)
+  (anonymous function) (https://s3.music.126.net/web/s/core_db15e45072c12697d6fed065e7a71f62.js?db15e45072c12697d6fed065e7a71f62:1)
+  VR6L (https://s3.music.126.net/web/s/core_db15e45072c12697d6fed065e7a71f62.js?db15e45072c12697d6fed065e7a71f62:25)
+  (anonymous function) (https://s3.music.126.net/web/s/core_db15e45072c12697d6fed065e7a71f62.js?db15e45072c12697d6fed065e7a71f62:1)
+
+  phantomjs://platform/console++.js:263 in error

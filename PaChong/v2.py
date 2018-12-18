@@ -40,6 +40,7 @@ class BeautifulPicture():
         print('开始切换文件夹')
         os.chdir(self.folder_path)   #切换路径至上面创建的文件夹
         i = 1 #后面用来给图片命名
+        print("a标签的数量是：", len(all_a))
         for a in all_a:
             img_str = a['srcset'] #a标签中完整的style字符串
             print('a标签的style内容是：', img_str)
@@ -50,7 +51,10 @@ class BeautifulPicture():
             height_str = img_url[height_pos + 3: len(img_url)]
             print('高度和宽度数据字符串是：', width_str + '|' + height_str)
             print('截取后的图片的url是：', img_url)
-            self.save_img(img_url, str(i))
+            name_start_pos = img_url.index('photo')
+            name_end_pos = img_url.index('?')
+            img_name = img_url[name_start_pos: name_end_pos]
+            self.save_img(img_url, img_name)
             i += 1
 
 beauty = BeautifulPicture()
