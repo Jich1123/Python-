@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User</title>
+</head>
+<body>
+{{ name|lower }}<br/>
+{{ dic['key1'] }}<br/>
+{{ '<h1>Hello World</h1>' }}<br/>
+{{ '<h1>Hello World</h1>'|safe }}<br/>
+{% if name == 'zhangsan' %}
+你好张三
+{% else %}
+你不是张三
+{% endif %}
+<br/>
+{% for (key,value) in dic.items() %}
+<p>{{ key }}:{{ value }}<p/>
+{% endfor %}
+</body>
+</html>
